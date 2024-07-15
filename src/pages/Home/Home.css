@@ -1,0 +1,10 @@
+.homeLayout {
+display: flex;
+flex-direction: column;
+flex: 1;
+justify-content: center;
+align-items: center;
+background-color:#ECF1F4;
+width: 100vw;
+height: 100vh;
+}
