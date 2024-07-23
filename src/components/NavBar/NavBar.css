@@ -1,0 +1,33 @@
+.navContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  
+  .iconsGroup {
+    display: flex;
+  }
+  
+  .leftGroup {
+    justify-content: flex-start;
+    gap: 18px;
+    margin-left: 40px;
+  }
+  
+  .rightGroup {
+    justify-content: flex-end;
+    gap: 18px;
+    margin-right: 40px;
+
+  }
+  
+  .centerIcon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
