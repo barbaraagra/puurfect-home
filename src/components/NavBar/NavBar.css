@@ -1,6 +1,7 @@
 .navContainer {
     position: absolute;
     bottom: 0;
+    padding-bottom: 34px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -10,24 +11,38 @@
   
   .iconsGroup {
     display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
   }
   
   .leftGroup {
-    justify-content: flex-start;
     gap: 18px;
-    margin-left: 40px;
+    margin-left: 8vw;
   }
   
   .rightGroup {
-    justify-content: flex-end;
     gap: 18px;
-    margin-right: 40px;
+    margin-right: 8vw;
 
   }
   
   .centerIcon {
     position: absolute;
     left: 50%;
+    top: -50%;
     transform: translateX(-50%);
-  }
+    width: 86px;
+    height: 86px;
+    background-color: #F4AF99;
+    border: 6px solid #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerIcon img {
+    width: 34px; 
+    height: 44px;
+}
   
