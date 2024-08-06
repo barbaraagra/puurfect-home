@@ -1,0 +1,64 @@
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 215px;
+    margin: auto;
+}
+
+.inputWrapper {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 100%;
+    
+}
+
+.searchBarInput {
+    width: 100%;
+    max-width: 215px;
+    height: 48px;
+    padding: 0 20px 0 50px; /* Adjust left padding to make space for the icon */
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.searchBarInput::placeholder {
+    color: #aaa;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+}
+
+.settingsButton {
+    width: 49px;
+    height: 49px;
+    background-color: #F4AF99;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.settingsIcon {
+    width: 16px;
+    height: 15px;
+    padding-top: 7px;
+}

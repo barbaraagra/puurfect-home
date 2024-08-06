@@ -9,7 +9,7 @@
 }
 
 .locationSection {
-margin-left: 12px;
+margin-left: 16px;
 }
 
 .locationSection h2{
@@ -51,5 +51,5 @@ overflow: hidden;
     border-radius: 50%;
     border: 3px solid #A074DF;
     object-fit: cover;
-    margin-right: 12px;
+    margin-right: 16px;
 }
