@@ -1,0 +1,33 @@
+.BannerContainer {
+    width: 100%;
+    max-width: 361px;
+    height: 135px;
+    background-color: #A074DF;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerImage {
+    width: 135px;
+    height: 135px;
+}
+
+.bannerText {
+    font-size: 18px;
+    text-align: center;
+    width: 185px;
+    color: #FFFFFF;
+}
+
+.bannerTextRegular {
+    margin: 0;
+}
+
+.bannerTextAlt {
+    margin: 0;
+    color: #B0F440;
+    font-weight: bold;
+}

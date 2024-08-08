@@ -1,0 +1,60 @@
+.searchToolsContainer {
+    width: 100%;
+    max-width: 361px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 18px;
+    padding: 0 16px;
+}
+
+.searchToolsTitle {
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+
+.buttonsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.textContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchButton {
+    width: 72px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.petIcon {
+    width: 27px;
+    height: 27px;
+}
+
+.searchButtonText {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    width: 72px;
+    text-align: center;
+}

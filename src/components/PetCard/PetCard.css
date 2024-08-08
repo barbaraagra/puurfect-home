@@ -1,0 +1,31 @@
+.cardContainer {
+    width: 147px;
+    height: 180px;
+    background-color: #A074DF;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.petImage {
+    width: 147px;
+    height: 115px;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.petName {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.petInfo {
+    font-size: 10px;
+}

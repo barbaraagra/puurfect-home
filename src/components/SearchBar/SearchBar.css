@@ -4,7 +4,6 @@
     align-items: center;
     width: 100%;
     max-width: 215px;
-    margin: auto;
 }
 
 .inputWrapper {
@@ -19,7 +18,7 @@
     width: 100%;
     max-width: 215px;
     height: 48px;
-    padding: 0 20px 0 50px; /* Adjust left padding to make space for the icon */
+    padding: 0 20px 0 50px;
     background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border: none;

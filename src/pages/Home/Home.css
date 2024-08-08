@@ -1,9 +1,19 @@
 .homeLayout {
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: start;
 align-items: center;
 background-color:#ECF1F4;
 width: 100vw;
 height: 100vh;
+padding-top: 200px;
+padding-bottom: 120px;
+}
+
+.petCardsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
