@@ -13,7 +13,11 @@ padding-bottom: 120px;
 .petCardsContainer {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-top: 16px;
+    gap: 20px;
 }
+
+
