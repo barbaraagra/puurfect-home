@@ -1,13 +1,13 @@
 .homeLayout {
-display: flex;
-flex-direction: column;
-justify-content: start;
-align-items: center;
-background-color:#ECF1F4;
-width: 100vw;
-height: 100vh;
-padding-top: 200px;
-padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color:#ECF1F4;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 200px;
+    padding-bottom: 120px;
 }
 
 .petCardsContainer {

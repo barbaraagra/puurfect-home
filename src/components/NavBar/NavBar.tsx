@@ -18,8 +18,8 @@ const NavBar = () => {
       <Link to="/"> <img src={pawIcon} alt="Paw Icon" /></Link>
     </div>
     <div className="iconsGroup rightGroup">
-      <Link to="/favorites"> <img src={heartIcon} alt="Heart Icon" /></Link>
-      <Link to="/"> <img src={userIcon} alt="User Icon" /></Link>
+      <Link to="/profile"> <img src={heartIcon} alt="Heart Icon" /></Link>
+      <Link to="/profile"> <img src={userIcon} alt="User Icon" /></Link>
     </div>
   </div>
   )

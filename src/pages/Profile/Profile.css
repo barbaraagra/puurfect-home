@@ -1,0 +1,132 @@
+.profileLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9EDE6;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.headerSection {
+    width: 100%;
+    background-color: #A074DF;
+    border-radius: 0 0 50% 50%;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.backButtonProfile {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 29px;
+    height: 29px;
+}
+
+.editButtonProfile {
+    position: absolute;
+    top: 8px;
+    right: 40px;
+    font-size: 20px;
+    color: #494949;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profileImageContainer {
+    margin-top: 16px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #fff;
+}
+
+.profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileDetails {
+    margin-top: 16px;
+}
+
+.profileDetails h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    color: #DFF440;
+}
+
+.profileDetails p {
+    font-size: 16px;
+    margin: 4px 0;
+    margin-bottom: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.locationContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.locationContainer img {
+    margin-right: 8px;
+    width: 28px;
+    height: 28px;
+}
+
+.buttonsContainerProfile {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.profileButton {
+    background-color: #FFBE88;
+    color: #333;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 1px 2px;
+    font-size: 18px;
+    width: 170px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favoritePetsSection {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.favoritePetsSection h2 {
+    margin-left: 16px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+}
+
+.favoritePetsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.favoritePetsContainer > div {
+    scroll-snap-align: start;
+}

@@ -20,9 +20,12 @@ interface Pet {
   image: string;
   description: string;
   location?: string;
+  isNeutered: boolean;
+  isVaccinated: boolean;
+  isDewormed: boolean;
 }
 
-const pets: Pet[] = [
+export const pets: Pet[] = [
   {
     name: "Pagode",
     age: "7 years",
@@ -32,6 +35,9 @@ const pets: Pet[] = [
     image: dogCard1,
     description: "Pagode is a loyal and gentle dog with a heart of gold. He enjoys long walks and is always up for a game of fetch. Pagode is great with kids and other pets, making him the perfect addition to any family.",
     location: "Lisbon, PT",
+    isNeutered: true,
+    isVaccinated: true,
+    isDewormed: true,
   },
   {
     name: "Luna",
@@ -42,6 +48,9 @@ const pets: Pet[] = [
     image: dogCard2,
     description: "Luna is a wise and calm companion who loves to relax in the sun. Despite her age, she still enjoys a good stroll and is incredibly affectionate. Luna is looking for a peaceful home where she can spend her golden years.",
     location: "Lisbon, PT",
+    isNeutered: false,
+    isVaccinated: true,
+    isDewormed: true,
   },
   {
     name: "Nina",
@@ -52,6 +61,9 @@ const pets: Pet[] = [
     image: catCard1,
     description: "Nina is a playful and curious kitten who loves to explore her surroundings. She’s full of energy and loves chasing after toys. Nina is perfect for a household looking for a lively and loving cat.",
     location: "Lisbon, PT",
+    isNeutered: false,
+    isVaccinated: false,
+    isDewormed: true,
   },
   {
     name: "PawPaw",
@@ -62,6 +74,9 @@ const pets: Pet[] = [
     image: catCard1,
     description: "PawPaw is an affectionate and playful young cat with a love for cuddles. He’s gentle and friendly, always ready to make new friends. PawPaw is the ideal companion for someone looking for a cat with a big heart.",
     location: "Lisbon, PT",
+    isNeutered: true,
+    isVaccinated: true,
+    isDewormed: false,
   },
 ];
 

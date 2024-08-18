@@ -1,6 +1,7 @@
 import "./ProfileNav.css"
 import downArrowIcon from "../../assets/images/icons/DownArrow.png"
 import profilePic from "../../assets/images/profilePic.avif"
+import { Link } from "react-router-dom"
 
 const ProfileNav = () => {
   return (
@@ -14,9 +15,11 @@ const ProfileNav = () => {
         </section>
 
         <section className="profileSection">
-        <span className="profileContainer">
-            <img src={profilePic} alt="Profile Picture" />
+          <Link to="/profile">
+            <span className="profileContainer">
+              <img src={profilePic} alt="Profile Picture" />
             </span>
+          </Link>
         </section>
 
     </nav>
